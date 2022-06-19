@@ -2,7 +2,12 @@ package main.java;
 
 
 import main.java.absctration.FullTimeEmployee;
+import main.java.absctration.GovernmentEmployee;
+import main.java.absctration.Home;
 import main.java.absctration.PartTimeEmployee;
+import main.java.absctration.PayementGatewayImplementation;
+import main.java.absctration.PaymentGateway;
+import main.java.absctration.Rupay;
 import main.java.absctration.SeniorCitizenEmployee;
 import main.java.encapsulation.Age;
 import main.java.inheritance.Cat;
@@ -26,27 +31,37 @@ public class OopsConcepts {
 //        cat.eat();
 //        System.out.println(dog.color);
 
-        Shape shape = new Shape();
-        shape.area(4);
-        shape.area(4,3);
+//        Shape shape = new Shape();
+//        shape.area(4);
+//        shape.area(4,3);
+//
+////        String.valueOf()
+//
+//        Parrot parrot = new Parrot();
+//        parrot.fly();
+//
+//        FullTimeEmployee fullTimeEmployee = new FullTimeEmployee();
+//        fullTimeEmployee.getHome();
+//        GovernmentEmployee governmentEmployee = new GovernmentEmployee();
+//        governmentEmployee.getHome();
+//        Home home = new FullTimeEmployee();
+//        home.getHome();
 
-//        String.valueOf()
 
-        Parrot parrot = new Parrot();
-        parrot.fly();
 
-        FullTimeEmployee fullTimeEmployee = new FullTimeEmployee();
-        fullTimeEmployee.income = 100;
-        fullTimeEmployee.calculate_tax();
+//        fullTimeEmployee.income = 100;
+//        fullTimeEmployee.calculate_tax();
+//
+//        PartTimeEmployee partTimeEmployee = new PartTimeEmployee();
+//        partTimeEmployee.income = 100;
+//        partTimeEmployee.calculate_tax();
+//
+//        SeniorCitizenEmployee seniorCitizenEmployee = new SeniorCitizenEmployee();
+//        seniorCitizenEmployee.calculate_tax();
 
-        PartTimeEmployee partTimeEmployee = new PartTimeEmployee();
-        partTimeEmployee.income = 100;
-        partTimeEmployee.calculate_tax();
-
-        SeniorCitizenEmployee seniorCitizenEmployee = new SeniorCitizenEmployee();
-        seniorCitizenEmployee.calculate_tax();
+//        PaymentGateway paymentGateway = new PayementGatewayImplementation();
+//        paymentGateway.pay(100);
+//        PaymentGateway rupay = new Rupay();
+//        rupay.pay(200);
     }
-
-
-
 }
